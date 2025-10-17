@@ -1,0 +1,240 @@
+:root {
+    --primary-color: #4A90E2;
+    --secondary-color: #FFC107;
+    --success-color: #28A745;
+    --danger-color: #DC3545;
+    --bg-color: #f4f7fa;
+    --card-bg: #ffffff;
+    --text-color: #333;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: var(--bg-color);
+    margin: 0;
+    padding: 40px 20px;
+    color: var(--text-color);
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 30px;
+    font-size: 2.2em;
+    font-weight: 700;
+}
+
+h2 {
+    color: var(--text-color);
+    border-left: 5px solid var(--primary-color);
+    padding-left: 10px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+/* --- Card Styles --- */
+.card {
+    background-color: var(--card-bg);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+}
+
+/* --- Form Styles --- */
+.form-container input[type="text"],
+.form-container input[type="date"] {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    flex-grow: 1;
+    font-size: 1em;
+}
+
+.form-container input::placeholder {
+    color: #aaa;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input-row {
+    display: flex;
+    gap: 10px;
+}
+
+/* --- Button Styling --- */
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s, transform 0.1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+#submit-button {
+    background-color: var(--success-color);
+    color: white;
+}
+
+#submit-button:hover {
+    background-color: #1e7e34;
+    transform: translateY(-1px);
+}
+
+/* --- Stats and Badge --- */
+.stats-container p {
+    margin: 0;
+    font-size: 1.1em;
+    font-weight: 500;
+    text-align: center;
+}
+
+.badge {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: var(--danger-color);
+    color: white;
+    border-radius: 20px;
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+/* --- Filter Styles --- */
+.filter-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.filter-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-grow: 1;
+}
+
+.filter-group label {
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.filter-group select,
+.filter-group input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1em;
+    flex-grow: 1;
+}
+
+/* --- Task List Items --- */
+.task-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: var(--card-bg);
+    border-radius: 8px;
+    border-left: 5px solid var(--secondary-color); /* Pending */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.task-item.completed {
+    border-left: 5px solid var(--success-color); /* Selesai */
+    background-color: #e9f5ff; /* Latar lebih terang untuk yang selesai */
+    opacity: 0.8;
+}
+
+.task-details {
+    flex-grow: 1;
+}
+
+.task-details h4 {
+    margin: 0 0 5px 0;
+    font-size: 1.1em;
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+.task-item.completed .task-details h4 {
+    text-decoration: line-through;
+    color: #6c757d;
+}
+
+.task-details p {
+    margin: 2px 0;
+    color: #6c757d;
+    font-size: 0.9em;
+}
+
+.task-actions button {
+    margin-left: 8px;
+    padding: 8px 12px;
+    font-size: 0.9em;
+}
+
+.complete-btn {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.complete-btn:hover {
+    background-color: #3b79c7;
+}
+
+.delete-btn {
+    background-color: var(--danger-color);
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .input-row {
+        flex-direction: column;
+    }
+    .filter-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .task-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .task-actions {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
