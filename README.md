@@ -19,7 +19,8 @@ Berikut adalah daftar fitur utama yang telah berhasil diimplementasikan:
 <img width="1251" height="482" alt="Screenshot 2025-10-20 142413" src="https://github.com/user-attachments/assets/5c86cb4c-99b9-4bf2-ad63-099c1d378864" />
 
 ### 2. Tugas Selesai dan Fitur Filter
-<img width="1263" height="123" alt="Screenshot 2025-10-20 142546" src="https://github.com/user-attachments/assets/f1f7359f-1d9b-4d1a-bca2-7480a48a6e58" />
+<img width="1254" height="402" alt="Screenshot 2025-10-20 142821" src="https://github.com/user-attachments/assets/de351eb2-bbbf-4803-b43d-f4269b3c4607" />
+
 
 ### 3. Contoh Pesan Validasi
 <img width="1251" height="916" alt="Screenshot 2025-10-20 142657" src="https://github.com/user-attachments/assets/cfe8747a-e187-46a7-83e2-a3ac93b4a13a" />
