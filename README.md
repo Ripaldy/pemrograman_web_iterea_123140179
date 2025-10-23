@@ -20,7 +20,8 @@ Ini adalah proyek aplikasi web front-end sederhana yang berfungsi sebagai person
 ## 📸 Tampilan Aplikasi (Screenshot)
 
 Berikut adalah tampilan dari aplikasi Dashboard Jadwal Kuliah yang telah selesai.
-<img width="1889" height="979" alt="image" src="https://github.com/user-attachments/assets/4bc19fcc-ffb5-4003-a738-d1904b010126" />
+<img width="1887" height="982" alt="image" src="https://github.com/user-attachments/assets/ef2155a6-226e-4c5a-85dd-cd52c0bc9de4" />
+
 
 ---
 
