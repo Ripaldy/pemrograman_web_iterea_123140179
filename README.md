@@ -1,4 +1,4 @@
-# 📝 Dashboard Jadwal Kuliah
+# Dashboard Jadwal Kuliah
 
 Ini adalah proyek aplikasi web front-end sederhana yang berfungsi sebagai personal dashboard untuk mengelola jadwal perkuliahan. Aplikasi ini dibangun dengan HTML, CSS, dan JavaScript modern (ES6+), serta memenuhi serangkaian persyaratan teknis khusus.
 
@@ -20,10 +20,7 @@ Ini adalah proyek aplikasi web front-end sederhana yang berfungsi sebagai person
 ## 📸 Tampilan Aplikasi (Screenshot)
 
 Berikut adalah tampilan dari aplikasi Dashboard Jadwal Kuliah yang telah selesai.
-
-![Tampilan Aplikasi](img/screenshot.png)
-
-*(Catatan: Anda perlu mengganti file `screenshot.png` di dalam folder `img` dengan hasil screenshot Anda sendiri)*
+<img width="1889" height="979" alt="image" src="https://github.com/user-attachments/assets/4bc19fcc-ffb5-4003-a738-d1904b010126" />
 
 ---
 
