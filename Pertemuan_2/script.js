@@ -47,8 +47,8 @@ class UI {
             <p><strong>Ruang:</strong> ${schedule.room}</p>
             <p><strong>Pukul:</strong> ${schedule.time}</p>
             <div class="schedule-actions">
-                <button class="edit-btn" data-id="${schedule.id}">✏️</button>
-                <button class="delete-btn" data-id="${schedule.id}">🗑️</button>
+                <button class="edit-btn" data-id="${schedule.id}">Edit</button>
+                <button class="delete-btn" data-id="${schedule.id}">Hapus</button>
             </div>
         `;
     list.appendChild(card);
@@ -161,3 +161,4 @@ document.querySelector("#schedule-board").addEventListener("click", (e) => {
 document.querySelector("#cancel-button").addEventListener("click", () => {
   UI.resetFormMode();
 });
+
