@@ -71,14 +71,14 @@ Sebelum memulai, pastikan Anda telah menginstal:
 **Tampilan Halaman Utama**
 
 - Menampilkan form input, fitur filter dan pencarian, serta daftar buku yang ada.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e7e2358c-9b76-4607-b976-441c99e61161" />
 
-  `[GANTI_INI_DENGAN_SCREENSHOT_HALAMAN_UTAMA]`
 
 **Tampilan Halaman Statistik**
 
 - Menampilkan rekapitulasi jumlah buku berdasarkan statusnya.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9130587a-6974-4486-92a2-c6d6dda1d95a" />
 
-  `[GANTI_INI_DENGAN_SCREENSHOT_HALAMAN_STATISTIK]`
 
 ---
 
@@ -115,5 +115,5 @@ Pengujian unit dilakukan menggunakan **Jest** dan **React Testing Library** untu
 **Hasil Pengujian**
 
 - Screenshot di bawah ini menunjukkan bahwa kelima skenario pengujian berhasil dijalankan tanpa ada yang gagal.
+<img width="788" height="238" alt="image" src="https://github.com/user-attachments/assets/8925a4f6-b59a-4e3f-8200-0644888c94a7" />
 
-  `[GANTI_INI_DENGAN_SCREENSHOT_HASIL_NPM_TEST]`
