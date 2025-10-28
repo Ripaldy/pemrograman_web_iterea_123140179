@@ -71,7 +71,8 @@ Sebelum memulai, pastikan Anda telah menginstal:
 **Tampilan Halaman Utama**
 
 - Menampilkan form input, fitur filter dan pencarian, serta daftar buku yang ada.
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e7e2358c-9b76-4607-b976-441c99e61161" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/945d906f-b868-4732-9aa7-ebd84776196a" />
+
 
 
 **Tampilan Halaman Statistik**
