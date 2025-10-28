@@ -77,7 +77,8 @@ Sebelum memulai, pastikan Anda telah menginstal:
 **Tampilan Halaman Statistik**
 
 - Menampilkan rekapitulasi jumlah buku berdasarkan statusnya.
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9130587a-6974-4486-92a2-c6d6dda1d95a" />
+<img width="1910" height="925" alt="image" src="https://github.com/user-attachments/assets/73dea014-26f8-422d-8bc7-20aad160166b" />
+
 
 
 ---
