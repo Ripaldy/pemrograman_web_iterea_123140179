@@ -10,7 +10,7 @@ Sistem manajemen perpustakaan berbasis Python yang mengimplementasikan konsep Ob
 - Pelacakan status ketersediaan item
 - Implementasi konsep OOP yang solid
 
-## 🏗️ Struktur Program
+## Struktur Program
 
 ### 1. **LibraryItem (Abstract Class)**
 
@@ -121,6 +121,10 @@ if found:
 ```
 
 ## Screenshot Hasil Running Program
+<img width="1370" height="647" alt="Screenshot 2025-11-11 024213" src="https://github.com/user-attachments/assets/09bb9d8e-595e-4be6-89da-b73fc03132e1" />
+<img width="1364" height="440" alt="Screenshot 2025-11-11 024257" src="https://github.com/user-attachments/assets/9ea6477b-15b1-4f48-89c5-e821ed20907d" />
+
+
 
 ## Konsep OOP yang Diterapkan
 
@@ -150,3 +154,4 @@ if found:
 - `@property` untuk memberikan akses read-only
 - Melindungi atribut dari modifikasi langsung
 - Memberikan interface yang clean untuk mengakses data
+
