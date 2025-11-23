@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Tugas Mahasiswa | Modern</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1><i class="fas fa-graduation-cap"></i> Manajemen Tugas </h1>
+
+        <div class="stats-container card mb-3">
+            <p>Tugas Belum Selesai: <span id="pending-count" class="badge">0</span></p>
+        </div>
+
+        <div class="form-container card mb-4">
+            <h2><i class="fas fa-plus-circle"></i> Tambah Tugas Baru</h2>
+            <form id="task-form">
+                <div class="input-row">
+                    <input type="text" id="taskName" required placeholder="Nama Tugas (Contoh: Laporan Jarkom)">
+                </div>
+                <div class="input-row">
+                    <input type="text" id="courseName" required placeholder="Mata Kuliah">
+                    <input type="date" id="deadline" required>
+                </div>
+                <button type="submit" id="submit-button"><i class="fas fa-save"></i> Tambah Tugas</button>
+            </form>
+        </div>
+        
+        <div class="filter-container card mb-4">
+            <div class="filter-group">
+                <label for="filter-status"><i class="fas fa-filter"></i> Filter Status:</label>
+                <select id="filter-status">
+                    <option value="all">Semua Tugas</option>
+                    <option value="pending">Belum Selesai</option>
+                    <option value="completed">Selesai</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="filter-course"><i class="fas fa-search"></i> Cari Matkul:</label>
+                <input type="text" id="filter-course" placeholder="Ketik Mata Kuliah...">
+            </div>
+        </div>
+        
+        <h2><i class="fas fa-list-check"></i> Daftar Tugas</h2>
+        <ul id="task-list" class="task-list">
+            </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
